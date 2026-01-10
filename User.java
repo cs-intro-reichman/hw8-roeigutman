@@ -90,7 +90,8 @@
                 for(int j = i; j < fCount - 1; j++){
                  follows[j] = follows[j + 1];
                 fCount--;
-                follows[fCount] = null;
+                follows[fCount - 1] = null;
+                fCount--;
                 return true;
                 }
              }
