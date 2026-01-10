@@ -157,12 +157,12 @@ public class Network {
     for(int i = 0; i < userCount; i++){
      ans = ans + "\n" + users[i].toString();
 
-
       
     }
-        return ans;
+        
+    return ans;
 
-}  
+   }  
      
 }
 
