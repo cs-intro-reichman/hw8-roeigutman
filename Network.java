@@ -124,12 +124,10 @@ public class Network {
           int count = followeeCount(name);
           if (count > max) {
             max = count;
-            popular = name;
+            popular = users[i].getName();
           }
 
-        }
-
-             
+        }   
 
 
         return popular;
